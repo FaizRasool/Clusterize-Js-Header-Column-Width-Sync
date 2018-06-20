@@ -4,15 +4,14 @@ The helper function will automatically apply the header column width to the tabl
 # Usage
 
 ## HTML
+```html
 <div class="clusterize">
 	<table>
 		<thead id="headerArea">
 			<tr class="grey darken-4 white-text">
-				<th width='10%'>Id</th>
+				<th width='30%'>Id</th>
 				<th width='20%'>Name</th>
-				<th width='20%'>Status</th>
-				<th width='30%'>Domain</th>
-				<th width='20%'>Controls</th>
+				<th width='50%'>Controls</th>
 			</tr>
 		</thead>
 	</table>
@@ -26,7 +25,10 @@ The helper function will automatically apply the header column width to the tabl
 		</table>
 	</div>
 </div>
-                
+```
+
 ## JAVASCRIPT
+```javascript
 var table = getSyncingClusterise('headerArea', 'contentArea', 'scrollArea');
 table.update([response.table]);
+```
