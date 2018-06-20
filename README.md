@@ -1,8 +1,6 @@
 # Clusterize-Js-Header-Column-Width-Sync
 The helper function will automatically apply the header column width to the table rows
 
-# Usage
-
 ## HTML
 ```html
 <div class="clusterize">
